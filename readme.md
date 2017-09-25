@@ -11,6 +11,12 @@ This app access analytics and get data
 $ composer install
 ```
 
+## SET ENV
+```
+KEY_FILE="your-service-account-credential-json-file"
+VIEW_ID="your-view-id"
+```
+
 ## START
 ```
 $ php index.php
