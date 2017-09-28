@@ -108,7 +108,6 @@ function printResults($reports) {
 	  $results = array();
 
       for ($i = 0; $i < count($dimensionHeaders) && $i < count($dimensions); $i++) {
-        //print($dimensionHeaders[$i] . ": " . $dimensions[$i] . "\n");
         $results[] = $dimensions[$i];
       }
 
@@ -117,7 +116,6 @@ function printResults($reports) {
         $values = $metrics[$j];
         for ( $valueIndex = 0; $valueIndex < count( $values->getValues() ); $valueIndex++ ) {
           $value = $values->getValues()[ $valueIndex ];
-          //print($entry->getName() . ": " . $value . "\n");
           $results[] = $value;
         }
       }
